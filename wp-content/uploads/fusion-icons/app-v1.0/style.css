@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'app';
+  src:  url('./fonts/app.eot?3k7lfr');
+  src:  url('./fonts/app.eot?3k7lfr#iefix') format('embedded-opentype'),
+    url('./fonts/app.ttf?3k7lfr') format('truetype'),
+    url('./fonts/app.woff?3k7lfr') format('woff'),
+    url('./fonts/app.svg?3k7lfr#app') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="app-"], [class*=" app-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'app' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-windows:before {
+  content: "\e900";
+}
+.app-apple:before {
+  content: "\e901";
+}
+.app-android:before {
+  content: "\e902";
+}
+.app-paper-plane-o:before {
+  content: "\e903";
+}
+.app-comment-o:before {
+  content: "\e904";
+}
+.app-download:before {
+  content: "\e905";
+}
+.app-cloud-download:before {
+  content: "\e906";
+}
+.app-tachometer:before {
+  content: "\e907";
+}
+.app-rocket:before {
+  content: "\e908";
+}
+.app-key:before {
+  content: "\e909";
+}
+.app-camera-retro:before {
+  content: "\e90a";
+}
+.app-random:before {
+  content: "\e90b";
+}
+.app-heart-o:before {
+  content: "\e90c";
+}
+.app-film:before {
+  content: "\e90d";
+}
+.app-gift:before {
+  content: "\e90e";
+}
+.app-leaf:before {
+  content: "\e90f";
+}
+.app-edit:before {
+  content: "\e910";
+}
+.app-clear:before {
+  content: "\e911";
+}
+.app-menu:before {
+  content: "\e912";
+}
